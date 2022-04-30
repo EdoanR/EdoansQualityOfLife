@@ -1,3 +1,4 @@
 displayName = Edoan's Quality Of Life
 author = Edoan
-version = 1.0
+version = 1.0.1
+homepage = https://github.com/Zennos/EdoansQualityOfLife
