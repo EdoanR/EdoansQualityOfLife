@@ -1,0 +1,3 @@
+displayName = Edoan's Quality Of Life
+author = Edoan
+version = 0.1

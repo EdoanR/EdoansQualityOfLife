@@ -1,0 +1,16 @@
+[c/FFFF00:Edoan's Quality Of Life] is a mod that change some vanilla stuff to make the gameplay less tedious. All changes below can be disabled in the mod settings.
+
+Changes:
+[i:2999] Stations Buffs last way longer.
+[i:213] Staff of Regrowth automatically replant herbs after harvesting.
+[i:2356] Increase Crate Potion duration.
+[i:997] Faster extractinator.
+[i:4856] Gem Trees Always Drop Gems
+[i:2] Increase max stacks.
+
+[c/FFFF00:*] Heavyly inspired by Fargo's Mutant mod!! Check it out [c/FFFF00:*]
+https://steamcommunity.com/sharedfiles/filedetails/?id=2570931073
+
+Yep, that's it.
+
+Github: https://github.com/Zennos/EdoansQualityOfLife
