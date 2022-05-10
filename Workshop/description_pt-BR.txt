@@ -1,0 +1,17 @@
+﻿Edoan's Quality Of Life é um mod que altera o jogo para que você tenha uma experiencia menos tediosa. Todas as mudanças podem ser desativada nas configurações.
+
+Mudanças:
+- Estações de buffs duram mais tempo.
+- Cajado do Renascimento replanta as ervas.
+- Aumenta a duração da Poção de Caixote.
+- Extratores mais rapido.
+- Árvores de joias sempre dropam joias.
+- Aumenta a quantidade de empilhamento máximo.
+- Aumenta a quantidade de buffs máximo.
+
+* Inspirado no Fargo's Mutant mod!! Da uma olhada! *
+https://steamcommunity.com/sharedfiles/filedetails/?id=2570931073
+
+É isto.
+
+Github: https://github.com/Zennos/EdoansQualityOfLife
