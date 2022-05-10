@@ -1,4 +1,5 @@
-﻿Edoan's Quality Of Life é um mod que altera o jogo para que você tenha uma experiencia menos tediosa. Todas as mudanças podem ser desativada nas configurações.
+﻿Feita na versão 1.4 Alfa do tModLoader.
+Edoan's Quality Of Life é um mod que altera o jogo para que você tenha uma experiencia menos tediosa. Todas as mudanças podem ser desativada nas configurações.
 
 Mudanças:
 - Estações de buffs duram mais tempo.
