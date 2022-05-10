@@ -8,31 +8,37 @@ namespace EdoansQualityOfLife
 	public class EdoanConfig : ModConfig
 	{
 
-		[Label("[i:2999] Longer Station Buffs")]
-		[Tooltip("It will last 2 hours.")]
+		[Label("$Mods.EdoansQualityOfLife.Common.LongerStationBuffsLabel")]
+		[Tooltip("$Mods.EdoansQualityOfLife.Common.LongerStationBuffsTooltip")]
 		[DefaultValue(true)]
 		public bool LongerStationBuffs;
 
-		[Label("[i:213] Staff of Regrowth Replant Herbs")]
+		[Label("$Mods.EdoansQualityOfLife.Common.StaffOfRegrowthReplantHerbsLabel")]
 		[DefaultValue(true)]
 		public bool StaffOfRegrowthReplantHerbs;
 
-		[Label("[i:2356] Longer Crate Potion Buff")]
-		[Tooltip("It will last 8 min instead of 3 min.")]
+		[Label("$Mods.EdoansQualityOfLife.Common.LongerCratePotionBuffLabel")]
+		[Tooltip("$Mods.EdoansQualityOfLife.Common.LongerCratePotionBuffTooltip")]
 		[DefaultValue(true)]
 		public bool LongerCratePotionBuff;
 
-		[Label("[i:997] Faster Extractinator")]
+		[Label("$Mods.EdoansQualityOfLife.Common.FasterExtractSpeedLabel")]
 		[DefaultValue(true)]
 		public bool FasterExtractSpeed;
 
-		[Label("[i:2] Increased Max Stacks")]
+		[Label("$Mods.EdoansQualityOfLife.Common.IncreaseMaxStackLabel")]
 		[DefaultValue(true)]
 		public bool IncreaseMaxStack;
 
-		[Label("[i:4856] Gem Trees Always Drop Gems")]
+		[Label("$Mods.EdoansQualityOfLife.Common.GemtreeGuaranteedLabel")]
 		[DefaultValue(true)]
 		public bool GemtreeGuaranteed;
+
+		[Label("$Mods.EdoansQualityOfLife.Common.IncreasePlayerBuffSlotLabel")]
+		[Tooltip("$Mods.EdoansQualityOfLife.Common.IncreasePlayerBuffSlotTooltip")]
+		[DefaultValue(true)]
+		[ReloadRequired]
+		public bool IncreasePlayerBuffSlot;
 
 		public override ConfigScope Mode => ConfigScope.ServerSide;
 
@@ -40,7 +46,7 @@ namespace EdoansQualityOfLife
 		{
 			if (!EdoansQualityOfLife.IsPlayerLocalServerOwner(Terraria.Main.player[whoAmI]))
 			{
-				message = "Only the server owner can change this config";
+				message = "$Mods.EdoansQualityOfLife.Common.OnlyServerOwnerChangeConfig";
 				return false;
 			}
 			return base.AcceptClientChanges(pendingConfig, whoAmI, ref message);

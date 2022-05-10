@@ -1,0 +1,20 @@
+﻿
+Common.LongerStationBuffsLabel=[i:2999] Estação de buffs duram mais
+Common.LongerStationBuffsTooltip=Vai durar 2 horas.
+
+Common.StaffOfRegrowthReplantHerbsLabel=[i:213] Cajado do Renascimento planta automaticamente as ervas
+
+Common.LongerCratePotionBuffLabel=[i:2356] Poção do Caixote dura mais
+Common.LongerCratePotionBuffTooltip=Dura 8 minutos em vez de 3 minutos.
+
+Common.FasterExtractSpeedLabel=[i:997] Extrator mais rapido
+
+Common.IncreaseMaxStackLabel=[i:2] Aumentar empilhamento máximo
+
+Common.GemtreeGuaranteedLabel=[i:4856] Árvores de Joias sempre dropam Joias
+
+Common.IncreasePlayerBuffSlotLabel=[i:487] Aumentar slots de buffs
+
+Common.IncreasePlayerBuffSlotTooltip=O jogo não deixa o player acumular mais que 22 buffs ao mesmo tempo, essa opção vai deixar a quantidade ilimitada! (Recarregamento Necessário)
+
+Common.OnlyServerOwnerChangeConfig=Apenas o dono do servidor pode mudar essas configurações.

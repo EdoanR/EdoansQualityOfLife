@@ -24,6 +24,21 @@ namespace EdoansQualityOfLife
             On.Terraria.Player.PlaceThing_Tiles_BlockPlacementForAssortedThings += Player_PlaceThing_Tiles_BlockPlacementForAssortedThings;
             On.Terraria.WorldGen.KillTile_GetItemDrops += WorldGen_KillTile_GetItemDrops;
             On.Terraria.WorldGen.SetGemTreeDrops += WorldGen_SetGemTreeDrops;
+            
+        }
+
+        public override uint ExtraPlayerBuffSlots
+        {
+            get
+            {
+                if (ModContent.GetInstance<EdoanConfig>().IncreasePlayerBuffSlot)
+                {
+                    return 200u;
+                } else
+                {
+                    return base.ExtraPlayerBuffSlots;
+                }
+            }
         }
 
         private void WorldGen_SetGemTreeDrops(On.Terraria.WorldGen.orig_SetGemTreeDrops orig, int gemType, int seedType, Tile tileCache, ref int dropItem, ref int secondaryItem)

@@ -1,0 +1,20 @@
+﻿
+Common.LongerStationBuffsLabel=[i:2999] Longer Station Buffs
+Common.LongerStationBuffsTooltip=It will last 2 hours.
+
+Common.StaffOfRegrowthReplantHerbsLabel=[i:213] Staff of Regrowth Replant Herbs
+
+Common.LongerCratePotionBuffLabel=[i:2356] Longer Crate Potion Buff
+Common.LongerCratePotionBuffTooltip=It will last 8 min instead of 3 min.
+
+Common.FasterExtractSpeedLabel=[i:997] Faster Extractinator
+
+Common.IncreaseMaxStackLabel=[i:2] Increased Max Stacks
+
+Common.GemtreeGuaranteedLabel=[i:4856] Gem Trees Always Drop Gems
+
+Common.IncreasePlayerBuffSlotLabel=[i:487] Increase Buff Slots
+
+Common.IncreasePlayerBuffSlotTooltip=The game don't let you have more than 22 buffs at the same time, this will increase to be unlimited! (Reload Required)
+
+Common.OnlyServerOwnerChangeConfig=Only the server owner can change this config.

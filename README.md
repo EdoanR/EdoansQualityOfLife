@@ -8,6 +8,7 @@ This mod change some vanilla stuff to make the gameplay less tedious. All change
 - Faster extractinator.
 - Gem Trees Always Drop Gems
 - Increase max stacks.
+- Increase buff slots.
 
 ⭐ Heavyly inspired by Fargo's Mutant mod! ⭐
 
