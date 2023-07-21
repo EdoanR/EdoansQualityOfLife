@@ -19,11 +19,11 @@ namespace EdoansQualityOfLife
 
         public override void Load()
         {
-            On.Terraria.Player.AddBuff += Player_AddBuff;
+            Terraria.On_Player.AddBuff += Player_AddBuff;
 
-            On.Terraria.Player.PlaceThing_Tiles_BlockPlacementForAssortedThings += Player_PlaceThing_Tiles_BlockPlacementForAssortedThings;
-            On.Terraria.WorldGen.KillTile_GetItemDrops += WorldGen_KillTile_GetItemDrops;
-            On.Terraria.WorldGen.SetGemTreeDrops += WorldGen_SetGemTreeDrops;
+            Terraria.On_Player.PlaceThing_Tiles_BlockPlacementForAssortedThings += Player_PlaceThing_Tiles_BlockPlacementForAssortedThings;
+            Terraria.On_WorldGen.KillTile_GetItemDrops += WorldGen_KillTile_GetItemDrops;
+            Terraria.On_WorldGen.SetGemTreeDrops += WorldGen_SetGemTreeDrops;
             
         }
 
@@ -41,7 +41,7 @@ namespace EdoansQualityOfLife
             }
         }
 
-        private void WorldGen_SetGemTreeDrops(On.Terraria.WorldGen.orig_SetGemTreeDrops orig, int gemType, int seedType, Tile tileCache, ref int dropItem, ref int secondaryItem)
+        private void WorldGen_SetGemTreeDrops(Terraria.On_WorldGen.orig_SetGemTreeDrops orig, int gemType, int seedType, Tile tileCache, ref int dropItem, ref int secondaryItem)
         {
             if (!ModContent.GetInstance<EdoanConfig>().GemtreeGuaranteed)
             {
@@ -56,7 +56,7 @@ namespace EdoansQualityOfLife
             }
         }
 
-        private void Player_AddBuff(On.Terraria.Player.orig_AddBuff orig, Player self, int type, int timeToAdd, bool quiet, bool foodHack)
+        private void Player_AddBuff(Terraria.On_Player.orig_AddBuff orig, Player self, int type, int timeToAdd, bool quiet, bool foodHack)
         {
             if (ModContent.GetInstance<EdoanConfig>().LongerStationBuffs)
             {
@@ -83,7 +83,7 @@ namespace EdoansQualityOfLife
         }
 
         // This is to change the amount of seeds that herbs can drop.
-        private void WorldGen_KillTile_GetItemDrops(On.Terraria.WorldGen.orig_KillTile_GetItemDrops orig, int x, int y, Tile tileCache, out int dropItem, out int dropItemStack, out int secondaryItem, out int secondaryItemStack, bool includeLargeObjectDrops)
+        private void WorldGen_KillTile_GetItemDrops(Terraria.On_WorldGen.orig_KillTile_GetItemDrops orig, int x, int y, Tile tileCache, out int dropItem, out int dropItemStack, out int secondaryItem, out int secondaryItemStack, bool includeLargeObjectDrops)
         {
 
             if (!ModContent.GetInstance<EdoanConfig>().StaffOfRegrowthReplantHerbs)
@@ -127,7 +127,7 @@ namespace EdoansQualityOfLife
         }
 
         // This is to change the effect of the Staff of Regrowth.
-        private bool Player_PlaceThing_Tiles_BlockPlacementForAssortedThings(On.Terraria.Player.orig_PlaceThing_Tiles_BlockPlacementForAssortedThings orig, Player self, bool canPlace)
+        private bool Player_PlaceThing_Tiles_BlockPlacementForAssortedThings(Terraria.On_Player.orig_PlaceThing_Tiles_BlockPlacementForAssortedThings orig, Player self, bool canPlace)
         {
 
             if (!ModContent.GetInstance<EdoanConfig>().StaffOfRegrowthReplantHerbs)

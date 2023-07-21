@@ -1,0 +1,42 @@
+Configs: {
+	OnlyOwner: Only the server owner can change this config.
+
+	EdoanConfig: {
+		DisplayName: Edoan's Quality Of Life Config
+
+		LongerStationBuffs: {
+			Label: "[i:2999] Longer Station Buffs"
+			Tooltip: It will last 2 hours.
+		}
+
+		StaffOfRegrowthReplantHerbs: {
+			Label: "[i:213] {$ItemName.StaffofRegrowth} Replant Herbs"
+			Tooltip: ""
+		}
+
+		LongerCratePotionBuff: {
+			Label: "[i:2356] Longer {$ItemName.CratePotion} Buff"
+			Tooltip: It will last 8 min instead of 3 min.
+		}
+
+		FasterExtractSpeed: {
+			Label: "[i:997] Faster {$ItemName.Extractinator}"
+			Tooltip: ""
+		}
+
+		IncreaseMaxStack: {
+			Label: "[i:2] Increased Max Stacks"
+			Tooltip: ""
+		}
+
+		GemtreeGuaranteed: {
+			Label: "[i:4856] Gem Trees Always Drop Gems"
+			Tooltip: ""
+		}
+
+		IncreasePlayerBuffSlot: {
+			Label: "[i:487] Increase Buff Slots"
+			Tooltip: The game don't let you have more than 22 buffs at the same time, this will increase to be unlimited! (Reload Required)
+		}
+	}
+}
